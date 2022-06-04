@@ -1,0 +1,30 @@
+body {
+	background: #f2eee3;
+}
+section {
+	width: 80%;
+	margin: 0 auto;
+	line-height: 0;
+	position: relative;
+}
+section img {
+	width: 100%;
+
+}
+section article {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: #f2eee3;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	mix-blend-mode: lighten;
+}
+section div {
+	background: black;
+	height: 25.3vw;
+}
+section div:nth-of-type(2) {
+	grid-column: 2 / 4;
+}
